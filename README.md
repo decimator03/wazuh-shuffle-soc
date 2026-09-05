@@ -56,3 +56,5 @@ Alert Enrichment
        │
        ▼
 Investigation / Response
+
+For a detailed explanation of the architecture and how the components interact, see [Architecture Documentation](docs/architecture.md).
