@@ -75,3 +75,14 @@ Investigation
     ↓
 Response
 ```
+## ⚠️ Project Note
+
+This document summarizes the concepts and practical exposure gained during the project.
+
+The original lab environment is no longer actively hosted, so specific implementation configurations are not included.
+
+## 📌 Conclusion
+
+This project provided practical exposure to building a security monitoring and automation workflow using Wazuh and Shuffle SOAR.
+
+It helped demonstrate how SIEM-based detection can be combined with SOAR capabilities to support alert enrichment, investigation, and response within a SOC environment.
