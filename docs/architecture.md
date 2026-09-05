@@ -70,3 +70,28 @@ The integration can be understood as a sequence of stages:
 **Role:** Supporting analyst decision-making
 
 The enriched alert information can then be used to support further investigation and appropriate response actions.
+
+## 🔗 SIEM-to-SOAR Integration
+
+The integration connects the detection capabilities of Wazuh with the automation capabilities of Shuffle SOAR.
+
+```text
+┌───────────────┐
+│ Security Data │
+└───────┬───────┘
+        ↓
+┌───────────────┐
+│     Wazuh     │
+│      SIEM     │
+└───────┬───────┘
+        ↓
+   Security Alert
+        ↓
+┌───────────────┐
+│    Shuffle    │
+│      SOAR     │
+└───────┬───────┘
+        ↓
+ Alert Enrichment
+        ↓
+Investigation / Response
