@@ -42,3 +42,13 @@ An analyst can use the additional context to better understand:
 Based on the investigation and available information, appropriate response actions can be considered.
 
 The SOAR workflow provides the foundation for exploring automated response actions as part of the overall security operations process.
+
+## 🎯 Workflow Objective
+
+The workflow demonstrates how SIEM detection can be connected with SOAR-based automation to support the security alert lifecycle.
+
+The overall process can be summarized as:
+
+**Detection → Processing → Enrichment → Investigation → Response**
+
+The objective is to understand how automation can assist SOC analysts by reducing repetitive processing and providing additional context during alert investigation.
