@@ -48,6 +48,25 @@ The enrichment stage adds additional information to security alerts, providing a
 
 ### 4. Investigation & Response
 
+## 🔄 Data Flow
+
+The integration can be understood as a sequence of stages:
+
+1. **Security Event Collection**  
+   Security events are collected and monitored by Wazuh.
+
+2. **Alert Generation**  
+   Wazuh identifies relevant activity and generates a security alert.
+
+3. **Alert Processing**  
+   Relevant alerts are passed to Shuffle SOAR for workflow processing.
+
+4. **Alert Enrichment**  
+   The SOAR workflow can add additional context to the alert.
+
+5. **Investigation & Response**  
+   The enriched information supports further investigation and response actions.
+
 **Role:** Supporting analyst decision-making
 
 The enriched alert information can then be used to support further investigation and appropriate response actions.
