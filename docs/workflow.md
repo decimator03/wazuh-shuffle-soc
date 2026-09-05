@@ -52,3 +52,20 @@ The overall process can be summarized as:
 **Detection → Processing → Enrichment → Investigation → Response**
 
 The objective is to understand how automation can assist SOC analysts by reducing repetitive processing and providing additional context during alert investigation.
+
+## 🧠 Key Concepts
+
+- **SIEM Detection** — Identifying relevant security events and generating alerts.
+- **SOAR Automation** — Processing alerts through defined security workflows.
+- **Alert Enrichment** — Adding useful context to security alerts.
+- **Investigation** — Analysing available alert information to understand the detected activity.
+- **Response** — Supporting appropriate actions based on the investigation.
+- **SOC Operations** — Connecting detection, investigation, and response into a structured workflow.
+
+---
+
+## ⚠️ Documentation Note
+
+This document describes the workflow and concepts explored during the project.
+
+The original lab environment is no longer actively hosted, so specific workflow configurations, endpoints, credentials, and deployment details are not included.
