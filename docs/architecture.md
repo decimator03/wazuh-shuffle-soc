@@ -95,3 +95,43 @@ The integration connects the detection capabilities of Wazuh with the automation
  Alert Enrichment
         ↓
 Investigation / Response
+```
+
+## 🎯 Architecture Objective
+
+The architecture was designed to demonstrate how security detection and automation can be connected within a SOC workflow.
+
+The overall concept can be summarized as:
+
+**Detection → Alert Processing → Enrichment → Investigation → Response**
+
+This approach helps demonstrate how SOAR capabilities can complement SIEM-based security monitoring and assist analysts during the alert investigation process.
+
+## 🛡️ SOC Use Case
+
+The integration demonstrates how SIEM and SOAR technologies can work together to support common SOC activities such as:
+
+- Security alert monitoring
+- Alert investigation
+- Alert enrichment
+- Workflow automation
+- Incident response support
+- Security event correlation
+
+## 📚 Key Takeaways
+
+This project provided practical exposure to:
+
+- SIEM and SOAR integration
+- Security alert processing
+- Alert enrichment
+- Security automation
+- SOC investigation workflows
+- Security event monitoring
+
+## ⚠️ Project Note
+
+This documentation represents the architecture and workflow explored during the project.
+
+The original lab environment is no longer actively hosted, so specific deployment details and configurations are not included.
+
