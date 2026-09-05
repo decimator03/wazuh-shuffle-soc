@@ -37,7 +37,7 @@ An analyst can use the additional context to better understand:
 - What additional information is available
 - Whether the activity requires further investigation
 
-- ## 6. Response
+## 6. Response
 
 Based on the investigation and available information, appropriate response actions can be considered.
 
