@@ -1,36 +1,58 @@
 # 🛡️ Wazuh + Shuffle SOAR Integration
 
+A technical case study documenting the integration of **Wazuh SIEM** with **Shuffle SOAR** for security monitoring, alert enrichment, automation, and SOC response workflows.
+
+---
+
 ## 📌 Overview
 
-This project focused on integrating **Wazuh SIEM** with **Shuffle SOAR** to explore automated security alert enrichment and response workflows within a Security Operations Center (SOC) environment.
+This project focused on integrating **Wazuh SIEM** with **Shuffle SOAR** to explore how security alerts can move from detection to automated investigation and response.
 
-The implementation explored how security events detected by a SIEM can be processed through a SOAR platform to support alert enrichment, investigation, and automated response workflows.
+The project provided practical exposure to:
+
+- Security monitoring
+- Alert detection
+- SIEM-to-SOAR integration
+- Alert enrichment
+- Security automation
+- Incident response workflows
+- Event visualization
+
+---
 
 ## 🎯 Objectives
 
-- Integrate Wazuh SIEM with Shuffle SOAR
+- Integrate **Wazuh SIEM** with **Shuffle SOAR**
 - Monitor and analyse security events
-- Forward relevant security alerts to Shuffle
-- Enrich alerts through automated workflows
+- Forward relevant alerts into automated workflows
+- Enrich alerts with additional investigation context
 - Explore automated response actions
-- Understand SIEM-to-SOAR integration within SOC operations
+- Understand SIEM and SOAR interaction within SOC operations
+
+---
 
 ## 🏗️ Architecture
 
 ```text
-Security Event
+Security Events
       │
       ▼
-  Wazuh SIEM
-      │
-      ▼
-Alert Detection
-      │
-      ▼
- Shuffle SOAR
-      │
-      ▼
+┌─────────────┐
+│    Wazuh    │
+│    SIEM     │
+└──────┬──────┘
+       │
+       ▼
+ Alert Detection
+       │
+       ▼
+┌─────────────┐
+│   Shuffle   │
+│    SOAR     │
+└──────┬──────┘
+       │
+       ▼
 Alert Enrichment
-      │
-      ▼
-Response Workflow
+       │
+       ▼
+Investigation / Response
